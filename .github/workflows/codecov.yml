@@ -9,6 +9,8 @@ on:
 jobs:
   test-and-upload-coverage:
     runs-on: ubuntu-latest
+    env:
+      NETLAS_API_KEY: "dummy"   # <<<<< prevents ValueError
 
     steps:
       # 1. Check out the code

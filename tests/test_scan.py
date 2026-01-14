@@ -1,8 +1,6 @@
-import importlib
+# tests/test_scan.py
 import json
 from unittest.mock import MagicMock
-
-import pytest
 
 import scan
 
