@@ -1,6 +1,4 @@
-# Passive Scanner Architecture
-
-## Purpose
+# Passive scanner architecture
 
 Documenting the architecture for the passive-scanner spike project, defining components, data flow, and responsibilities. This ensures the spike is structured for future scaling while keeping the Desk → Forge → Scanner workflow intact.
 
@@ -32,6 +30,8 @@ passive-scanner/
 │   └── output.py            # JSONL results writer
 └── FINDINGS.md              # Spike results & limitations
 ```
+
+See [architecture](architecture.md).
 
 ## Component responsibilities
 
@@ -66,6 +66,8 @@ passive-scanner/
 * Responsibilities: Glue only, no logic decisions.
 
 ### IO
+
+Currently not used in the spike. Is for later.
 
 * targets.py: Handle IP/netblock input.
 * output.py: Emit JSONL lines: `<timestamp>, <ip>, <match_result>, <evidence_snippet>`.
