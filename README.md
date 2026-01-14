@@ -4,7 +4,7 @@
 [![Coffee](https://img.shields.io/badge/Buy%20Me%20Coffee-%E2%98%95-ff813f)](https://www.buymeacoffee.com/ninabarzh)
 ![Python](https://img.shields.io/badge/python-3.12-blue)
 
-A Spike passive scanner for fingerprinting services using Netlas (for now).  
+A Spike passive scanner for fingerprinting services using Netlas (for now) for the [Fingerprint Forge](https://blue.tymyrddin.dev/docs/shadows/anvil/forge/).
 Designed for safe, offline-friendly analysis of small, controlled target sets.  
 
 ## Features
